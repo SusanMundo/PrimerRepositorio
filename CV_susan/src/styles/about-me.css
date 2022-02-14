@@ -1,0 +1,206 @@
+#about-me{
+
+    display: flex;
+    flex-direction: column;
+
+    }
+@media screen and (max-width: 600px) {
+    #about-me{
+        flex-direction: column;
+    }
+       #bt-des{
+        display: block;
+    }
+}
+/* .   
+     */
+
+     .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: normal;
+        align-items: normal;
+        align-content: normal;
+        padding: 30px 100px 20px;
+      }
+      
+      .flex-items:nth-child(1) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: center;
+        order: 0;
+        margin: 150px;
+      }
+      
+    .flex-items:nth-child(2) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+      }
+
+      .imgRedonda {
+        width:400px;
+        height:550px;
+        border-radius:40px;
+        /* padding: 10px 50px 20px; */
+    }
+
+    .form-Icon {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: white;
+        width: 30px;
+        margin: 10px;
+        text-align: center;
+        line-height: 15px;
+        border: 2px solid #310a90;
+    }
+
+    .formato-Iconos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 20px;
+    }
+    .formato-Boton{
+        padding: 10px 20px;
+        margin: 30px;
+        background: #310a90;
+        text-align: center;
+        color: white;
+        border-radius:40px;
+    }
+    .formato-Header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: auto;
+    }
+    .formato-Margen-Header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px, 5px, 30px, 0;  
+
+    }
+    .formato-principal-Header{
+        width: 200px;
+        padding: 10px,50px,30px,0;
+    }
+
+    .texto1{
+        text-align: center;
+        font-size: 1.6rem;
+        align-items: center;
+    }
+ 
+
+    /*-------------------------------------------------------------------------------------------*/
+   
+
+    .formato-Boton2{
+        padding: 10px 20px;
+        margin: 30px;
+        background: #310a90;
+        text-align: center;
+        color: white;
+        border-radius: 0px;
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+
+    .formato-Boton3{
+        padding: 10px 20px;
+        margin: 30px;
+        background: #310a90;
+        text-align: center;
+        color: white;
+        border-radius: 10px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .formato-Boton4{
+        padding: 10px 20px;
+        margin: 30px;
+        background: transparent;
+        text-align: center;
+        color: #310a90;
+        border-radius: 10px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    /*----------------------------------------------------------------------------------------------------*/
+    
+    #texto3 {
+        /* display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        font-size: 3rem;
+        padding: 10px 50px 20px;
+        margin: 100px;
+        font-weight: 700;
+
+    -webkit-box-shadow: -22px -7px 15px -3px rgba(230,220,197,0.77);
+    box-shadow: -22px -7px 15px -3px rgba(230,220,197,0.77); */
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 30px 30px 20px;
+font-size: 3rem;
+position: static;
+width: 1100px;
+height: 320px;
+left: 0px;
+top: 0px;
+text-align: center;
+
+
+ 
+background: rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(40px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 24px;
+
+ 
+/* Inside auto layout */
+
+order: 0;
+flex-grow: 0;
+margin: 10px 20px
+
+    }
+
+    /*.........................................................................*/
+    .flex-container3{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: 30px 100px 20px;
+    }
+
+    .flex-items2:nth-child(1) {
+        display: flex;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: center;
+        order: 0;
+        margin: 150px;
+      }
+
+
+
+
+
+

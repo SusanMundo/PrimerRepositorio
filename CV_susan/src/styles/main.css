@@ -1,0 +1,9 @@
+@import url(./about-me.css);
+:root{ 
+    --fontBase:'Poppins',sans-serif;
+    --colorBase:#310A90;
+}
+body{
+    font-family:var(--fontBase);
+    color:var(--colorBase);
+}
